@@ -13,3 +13,5 @@ The GUI version of DOS does not currently work as intended however, the CLI vers
 
 DOS attacks comprise of one node sending traffic, anything more than one device is considered a DDOS attack. 
 To be **clear**, this is a **Denial of service tool**. 
+
+The tool sends an ICMP packet flood using a type 9 header (Router Advertisement Packet)
