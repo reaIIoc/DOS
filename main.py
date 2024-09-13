@@ -8,11 +8,6 @@ import os
 import banners
 import gui
 
-
-def packet_flood():
-    pass
-
-
 def gui_version():
     gui.main()
 
