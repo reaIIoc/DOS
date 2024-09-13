@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/847c103f-cf78-4ce0-9a2e-96c65d58a9ee) ![image](https://github.com/user-attachments/assets/02cbf192-5830-42d4-8532-fdf52a308314)
+![image](https://github.com/user-attachments/assets/43d338b2-d803-483d-a932-18d750cb3900)
+ ![image](https://github.com/user-attachments/assets/02cbf192-5830-42d4-8532-fdf52a308314)
 
 
 # DOS
