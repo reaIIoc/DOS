@@ -31,8 +31,8 @@ def main():
     method_options = input('''
  Denial of Service tool | made by 0x4155
  
- 1) GUI Version (Simpler)
- 2) CLI Version (Harder)
+ 1) GUI Version 
+ 2) CLI Version 
 
  >> ''')
     if method_options == '1':
