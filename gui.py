@@ -49,7 +49,7 @@ def main():
     filler = Label(bg="black", padx=90, pady=22)
     filler2 = Label(bg="black", padx=0)
     filler3 = Label(bg="black")
-    creator_info = Label(text="DOS | Made by h0hr", fg="white", bg="black")
+    creator_info = Label(text="DOS | Made by datarec", fg="white", bg="black")
     status = Label(text="Disabled", bg="black", fg="red")
     start = Button(text="Start/Stop")
 
