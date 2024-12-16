@@ -1,5 +1,5 @@
 # # Created in Python | 5/02/2024 | Denial of Service Tool | Supports TCP, ICMP at given date.
-# Created by StaleCrescent65
+# Created by datarec
 
 from scapy.all import *
 from scapy.layers.inet import TCP, IP, ICMP
@@ -46,11 +46,16 @@ def main():
 
 
 def welcome_msg():
-    os.system('cls')
-    get_user = os.getlogin()
-    print(f'\n Welcome {get_user}!')
-    time.sleep(2)
-    main()
+    try:
+        os.system('cls')
+        get_user = os.getlogin()
+        print(f'\nWelcome {get_user}!')
+        time.sleep(2)
+        main()
+    except KeyboardInterrupt:
+        print(" \n\nExiting...")
+        exit()
+        
 
 
 if __name__ == "__main__":
