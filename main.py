@@ -3,6 +3,7 @@
 
 from scapy.all import *
 from scapy.layers.inet import TCP, IP, ICMP
+import subprocess
 import time
 import os
 import banners
@@ -13,7 +14,7 @@ def gui_version():
 
 
 def cli_version():
-    os.system('cls')
+    subprocess.run(["cls"], shell=True)
     banners.dos_banner()
     print('')
     print(' Enter the destination IP. ')
@@ -27,9 +28,9 @@ def cli_version():
 
 
 def main():
-    os.system('cls')
+    subprocess.run(["cls"], shell=True)
     method_options = input('''
- Denial of Service tool | made by 0x4155
+ Denial of Service tool | made by datarec
  
  1) GUI Version 
  2) CLI Version 
@@ -47,7 +48,7 @@ def main():
 
 def welcome_msg():
     try:
-        os.system('cls')
+        subprocess.run(["cls"], shell=True)
         get_user = os.getlogin()
         print(f'\nWelcome {get_user}!')
         time.sleep(2)
