@@ -1,3 +1,4 @@
-import os
+import subprocess
 
-os.system("pip3 install scapy")
+installation = subprocess.run(["pip3", "install", "discord"], capture_output=True)
+print("dependencies installed (:")
