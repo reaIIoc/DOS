@@ -18,4 +18,4 @@ Uses scapy to craft the packets and tkinter for the GUI version of DOS.
 DOS attacks comprise of one node sending traffic, anything more than one device is considered a DDOS attack. 
 To be **clear**, this is a **Denial of service tool** created for the purpose of expanding my knowledge in the context of computer networking and computer programming. 
 
-The tool sends an ICMP packet flood using a type 9 header (Router Advertisement Packet)
+The tool sends an ICMP packet flood using a type 9 header (Router Advertisement Packet) in order to simulate a Denial of Service attack.
