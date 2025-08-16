@@ -19,3 +19,7 @@ DOS attacks comprise of one node sending traffic, anything more than one device 
 To be **clear**, this is a **Denial of service tool** created for the purpose of expanding my knowledge in the context of computer networking and computer programming. 
 
 The tool sends an ICMP packet flood using a type 9 header (Router Advertisement Packet) in order to simulate a Denial of Service attack.
+
+# Why?
+I wanted to create a tool that could simulate a Denial of Service attack. By creating this tool I was able to deepen my understanding
+with regards to Python socket programming and computer networking as a general topic. 
